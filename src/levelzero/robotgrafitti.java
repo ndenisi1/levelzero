@@ -8,11 +8,16 @@ public class robotgrafitti {
 		// TODO Auto-generated method stub
 		Robot Jeff=new Robot(); 
 		Jeff.penDown();
+		Jeff.setRandomPenColor();
+		Jeff.setSpeed(10);
+		for (int i = 0; i < args.length; i++) {
+			
+		
 		Jeff.move(300);
 Jeff.turn(135);
 Jeff.move(400);
 Jeff.turn(225);
-Jeff.move(300);
+Jeff.move(300);}
 	}
 
 }
